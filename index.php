@@ -1,3 +1,9 @@
+<?php
+
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -13,6 +19,17 @@
     <div class="container">
         <h4>FORMULARIO PARA INSCRIÇÃO DE COMPETIDORES</h4>
         <form action="script.php" method="post">
+            <?php
+                $mensagemDeSucesso = isset($_SESSION['mensagem-de-sucesso']) ? $_SESSION['mensagem-de-sucesso'] : ' ';
+                if(!empty($mensagemDeSucesso)){
+                    echo $mensagemDeSucesso;
+                }
+            
+                $mensagemDeErro = isset($_SESSION['mensagem-de-erro']) ? $_SESSION['mensagem-de-erro'] : ' ';
+                if(!empty($mensagemDeErro)){
+                    echo $mensagemDeErro;
+                }
+            ?>
             <div class="form-group">
                 <label for="exampleFormControlInput1">SEU NOME:</label>
                 <input name="nome" type="text" class="form-control" id="exampleFormControlInput1" placeholder="DIGITE SEU NOME">
