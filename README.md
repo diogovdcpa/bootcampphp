@@ -6,7 +6,7 @@ Desenvolvimento : Diogo Vaz de Caldas<br>
 Curso : Bacharelado em Sistema de Informação<br>
 Instituição: ESAB ( Escola Superior Aberta do Brasil )<br> 
 
-Desafio : 
+Desafio :<br> 
 Criar um projeto em php para uma competição de natação, onde o sistema deverá
 permitir a inserção de competidores com seu nome e idade, e o sistema deverá
 identificar em qual categoria o nadador irá competir, por exemplo, 6 a 12 anos
