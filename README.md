@@ -1,5 +1,10 @@
 # bootcampphp
-Projeto do Bootcamp PHP 
+Projeto do Bootcamp PHP
+
+Aluno:
+Desenvolvimento : Diogo Vaz de Caldas
+Curso : Bacharelado em Sistema de Informação
+Instituição: ESAB ( Escola Superior Aberta do Brasil ) 
 
 Desafio : 
 Criar um projeto em php para uma competição de natação, onde o sistema deverá
